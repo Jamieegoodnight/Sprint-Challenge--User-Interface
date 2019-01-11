@@ -130,6 +130,9 @@ button {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    background-image: url("https://images.pexels.com/photos/698808/pexels-photo-698808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .middle-content h2 {
@@ -205,11 +208,11 @@ button {
 
 @keyframes pulse {
   0% {
-    background-color: #001F3F;
+    background-color:#f0f5f5;
   }
 
   20% {
-    background-color: #4dff4d;
+    background-color:#000000;
   }
 
   40% {
@@ -217,15 +220,15 @@ button {
   }
 
    60% {
-    background-color: #006600;
+    background-color: #737373;
    }
 
    80% {
-    background-color: #e6e600;
+    background-color:#f2f2f2;
    }
 
   100% {
-    background-color: #FF4136;
+    background-color: #666666;
   }
 }
 
