@@ -159,47 +159,82 @@ button {
 
 /*------------*/
 .one {
-    background-color: teal; 
+    background-color: teal;
+    animation: pulse 10s infinite;  
 }
 
 .two {
     background-color: gold;
+    animation: pulse 5s infinite;
 }
 
 .three {
     background-color: cadetblue;
+    animation: pulse 3s infinite;
 }
 
 .four {
     background-color: coral;
+    animation: pulse 20s infinite;
 }
 
 .five {
     background-color: crimson;
+    animation: pulse 8s infinite;
 }
 
 .six {
     background-color: forestgreen;
+    animation: pulse 14s infinite;
 }
 
 .seven {
     background-color: darkorchid;
+    animation: pulse 33s infinite;
 }
 
 .eight {
     background-color: hotpink;
+    animation: pulse 7s infinite;
 }
 
 .nine {
     background-color: indigo;
+    animation: pulse 17s infinite;
 }
 
 .ten {
     background-color: dodgerblue;
+    animation: pulse 22s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+
+  20% {
+    background-color: #4dff4d;
+  }
+
+  40% {
+    background-color: #ffffff;
+  }
+
+   60% {
+    background-color: #006600;
+   }
+
+   80% {
+    background-color: #e6e600;
+   }
+
+  100% {
+    background-color: #FF4136;
+  }
 }
 
 /*-----------*/
-
 
 .bottom-content {
     display: flex;
@@ -214,6 +249,20 @@ button {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/*------*/
+.bottom-content-about {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+
+
+
+/*---------*/
 
 footer {
     width: 100%;
