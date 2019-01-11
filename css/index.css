@@ -85,6 +85,8 @@ p {
     padding-bottom: 20px;  
 }
 
+/*---------*/
+
 .top-content-about {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -94,6 +96,40 @@ p {
     padding-left: 20px;
     padding-bottom: 20px;
 }
+
+/*---------*/
+
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.middle-content-about .about-box {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    border-bottom: 1px dotted black;
+    margin: 15px;
+}
+
+.middle-content-about h2 {
+    padding-top: 10px;
+}
+
+button {
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: white;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+/*---------*/
 
 .middle-content {
     margin-bottom: 20px;
