@@ -85,6 +85,16 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content-about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.text-container-about {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
