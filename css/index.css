@@ -85,8 +85,6 @@ p {
     padding-bottom: 20px;  
 }
 
-/*---------*/
-
 .top-content-about {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -97,7 +95,6 @@ p {
     padding-bottom: 20px;
 }
 
-/*---------*/
 
 .middle-content-about {
     display: flex;
@@ -129,7 +126,6 @@ button {
 
 }
 
-/*---------*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -157,7 +153,6 @@ button {
     justify-content: center;
 }
 
-/*------------*/
 .one {
     background-color: teal;
     animation: pulse 10s infinite;  
@@ -234,7 +229,6 @@ button {
   }
 }
 
-/*-----------*/
 
 .bottom-content {
     display: flex;
@@ -250,19 +244,11 @@ button {
     padding-right: 0;
 }
 
-
-/*------*/
 .bottom-content-about {
     margin-left: 20px;
     margin-bottom: 30px;
     margin-top: 30px;
 }
-
-
-
-
-
-/*---------*/
 
 footer {
     width: 100%;
@@ -282,8 +268,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
-/*--------------*/
 
 header .navigation {
     display: flex;
